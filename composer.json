@@ -1,0 +1,26 @@
+{
+    "name": "capimichi/cache",
+    "description": "Filesystem cache",
+    "authors": [
+        {
+            "name": "Michele Capicchioni",
+            "email": "capimichi@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Cache\\": "src/Cache/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cache\\Test\\": "test/Cache/"
+        }
+    },
+    "require": {
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "composer/composer": "^1.4"
+    }
+}
